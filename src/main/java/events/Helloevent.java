@@ -13,7 +13,7 @@ public class Helloevent extends ListenerAdapter {
 
     if(args[0].equalsIgnoreCase("hi")){
            if(!event.getMember().getUser().isBot()){
-                event.getChannel().sendMessage("hi " ).queue();
+                event.getChannel().sendMessage("Hello "+name ).queue();
             }
         }
     }
